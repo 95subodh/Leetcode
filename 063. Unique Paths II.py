@@ -33,5 +33,5 @@ class Solution(object):
     				elif j==0:
     				    l[i][j]=l[i-1][j]
     				else:
-    					l[i][j]+=l[i-1][j]+l[i][j-1]
+    				    l[i][j]+=l[i-1][j]+l[i][j-1]
 		return l[m-1][n-1]
