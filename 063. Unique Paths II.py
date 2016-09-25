@@ -25,13 +25,13 @@ class Solution(object):
 		l=[[0 for i in xrange(n)] for i in xrange(m)]
 		for i in xrange(m):
 			for j in xrange(n):
-			    if obstacleGrid[i][j]==0:
-    				if i==0 and j==0:
-    					l[i][j]=1
-    				elif i==0:
-    				    l[i][j]=l[i][j-1]
-    				elif j==0:
-    				    l[i][j]=l[i-1][j]
-    				else:
-    				    l[i][j]+=l[i-1][j]+l[i][j-1]
+				if obstacleGrid[i][j]==0:
+					if i==0 and j==0:
+						l[i][j]=1
+					elif i==0:
+						l[i][j]=l[i][j-1]
+					elif j==0:
+						l[i][j]=l[i-1][j]
+					else:
+						l[i][j]+=l[i-1][j]+l[i][j-1]
 		return l[m-1][n-1]
