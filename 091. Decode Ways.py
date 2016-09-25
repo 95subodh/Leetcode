@@ -12,7 +12,7 @@
 #The number of ways decoding "12" is 2.
 
 class Solution(object):
-    def numDecodings(self, s):
+	def numDecodings(self, s):
 		"""
 		:type s: str
 		:rtype: int
