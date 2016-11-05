@@ -2,7 +2,7 @@
 #
 #For example:
 #Given the following binary tree,
-#	1            <---
+#   1            <---
 # /   \
 #2     3         <---
 # \     \
