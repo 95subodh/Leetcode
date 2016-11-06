@@ -18,14 +18,14 @@
 #	  1
 #	 /  \
 #	2    3
-# / \  / \
-#4  5  6  7
+#      / \  / \
+#     4  5  6  7
 #ter calling your function, the tree should look like:
-#		 1 -> NULL
+#	  1 -> NULL
 #	 /  \
 #	2 -> 3 -> NULL
-# / \  / \
-#4->5->6->7 -> NULL
+#      / \  / \
+#     4->5->6->7 -> NULL
 
 # Definition for binary tree with next pointer.
 # class TreeLinkNode:
