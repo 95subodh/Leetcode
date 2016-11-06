@@ -7,19 +7,19 @@
 #		  / \
 #		 2   5
 #		/ \   \
-#	   3   4   6
+#	       3   4   6
 #The flattened tree should look like:
 #	1
 #	 \
 #	  2
+#	   \
+#   	    3
+#	     \
+#	      4
 #		\
-#		 3
-#		  \
-#			4
-#			 \
-#			  5
-#				\
-#				 6
+#		 5
+#	          \
+#		   6
 #click to show hints.
 #
 #Hints:
