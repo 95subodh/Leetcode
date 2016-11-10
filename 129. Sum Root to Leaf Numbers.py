@@ -6,7 +6,7 @@
 #
 #For example,
 #
-#	1
+#    1
 #   / \
 #  2   3
 #The root-to-leaf path 1->2 represents the number 12.
